@@ -1,7 +1,11 @@
-node_modules/
-.env
+﻿__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
 dist/
-.vite/
-*.log
+.ipynb_checkpoints/
+venv/
+.venv/
 .DS_Store
 Thumbs.db
+*.log
