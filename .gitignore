@@ -1,4 +1,4 @@
-﻿__pycache__/
+__pycache__/
 *.pyc
 *.pyo
 *.egg-info/
@@ -9,3 +9,8 @@ venv/
 .DS_Store
 Thumbs.db
 *.log
+
+# pip 缓存已迁到 D:\pip-cache, 不提交
+# 结果图: 保留提交 (作为作品集展示), 如要忽略可取消下一行注释
+# *_result.png
+

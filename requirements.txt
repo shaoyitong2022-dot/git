@@ -1,0 +1,33 @@
+# AI4Science x Quantum ML Portfolio — Python 依赖 (conda env: pytorch_env, Python 3.10)
+# 安装方式: conda activate pytorch_env && pip install -r requirements.txt
+# 注: torch/torchvision/torraudio 已在 conda env 中预装 (CUDA 版), 这里不重复列出
+
+# ---- 核心科学计算 ----
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.8
+seaborn>=0.13
+pandas>=2.0
+einops>=0.7
+scikit-learn>=1.4
+tqdm>=4.66
+rich>=13.7
+
+# ---- Jupyter / notebook ----
+jupyter>=1.0
+ipykernel>=6.29
+ipywidgets>=8.1
+
+# ---- 量子机器学习 (Phase 1) ----
+pennylane>=0.42
+pennylane-lightning>=0.42
+pennylane-qiskit>=0.42
+qiskit>=1.2
+qiskit-aer>=0.15
+qiskit-ibm-runtime>=0.29
+
+# ---- 神经量子态 / 多体物理 (Phase 2) ----
+netket>=3.17
+jax>=0.4.30
+optax>=0.2
+flax>=0.10
